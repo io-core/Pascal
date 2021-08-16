@@ -1335,7 +1335,7 @@ expression0 is assigned to the procedure variable `expression` to allow the forw
 ---
 **The initialzation code for this module** opens a writer to print marked errors and initializes the Oberon parser state.
   end-procedure-description *)
-BEGIN Texts.OpenWriter(W); Texts.WriteString(W, "OX Oberon Compiler  3.16.2021");
+BEGIN Texts.OpenWriter(W); Texts.WriteString(W, "Integrated Pascal Compiler  8.16.2021");
   Texts.WriteLn(W); Texts.Append(Oberon.Log, W.buf);
 
   OXS.EnterKW(OXS.if, "IF",2);
